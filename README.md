@@ -2,7 +2,7 @@
 
 ## Summary
 
-Within this challenge, I used logistical regression to run statistical analysis on how well the supervised machine learning model could predict the outcome of the loan variables being tested, health vs high-risk loans. Like most regression models, I split my data into X and y variables, but rather than a simple two column data set that I could assign as the X and y variables, I grouped the data into a 'feature' (X) and 'target' (y) labels. The y variable usually consists of one column of interest where as the X variable consists all the other columns, excluding the y variable. 
+Within this challenge, I used logistic regression to run statistical analysis on how well the supervised machine learning model could predict the outcome of the loan variables being tested, health vs high-risk loans. Like most regression models, I split my data into X and y variables, but rather than a simple two column data set that I could assign as the X and y variables, I grouped the data into a 'feature' (X) and 'target' (y) labels. The y variable usually consists of one column of interest where as the X variable consists all the other columns, excluding the y variable. 
 
 In order to get the data set into the X and y variables, I created two datasets under the X and y df label to only include the columns of interest. Once those variables have been established, I used the train test split function to further split the new X and y data sets to utilize in the logistical regression model. This is just simply establishing X and y train and test variables to match the train test split function.
 
