@@ -23,7 +23,7 @@ The logistic regression model is great for datasets that are on the large side a
 |  Weighted avg| 0.99      | 0.99   | 0.99     | 19384   |
 
 
-As you can see, the accuracy for the 0 (healthy loans) and 1 (high-risk loans) weren't too bad. The total correct prediction samples to the total samples were 99% accurate. The precision rates showcase an instance in which there could be some false positives. Specifically with the high-risk label since it got an 84% precision rate versus the healthy loan with a 100%. With a lower precision, this is a good indicator of being able to identidfy true positives. Overall, the outcome of the prediction was a good model as the sample data and the true data didn't have a low accuracy percentage.
+As you can see, the accuracy for the 0 (healthy loans) and 1 (high-risk loans) weren't too bad. The total correct prediction samples to the total samples were 99% accurate. The precision rates showcase an instance in which there could be some false positives. Specifically with the high-risk label since it got an 84% precision rate versus the healthy loan with a 100%. With a lower precision, this is a good indicator of being able to identify true positives. Overall, the outcome of the prediction was a good model as the sample data and the true data didn't have a low accuracy percentage.
 
 ## Final Thoughts
 
